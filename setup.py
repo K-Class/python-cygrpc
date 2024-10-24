@@ -16,7 +16,7 @@ def parse_requirements(filename: str) -> List[str]:
 
 
 # CyGRPC version
-VERSION: str = '1.0.4.post6'
+VERSION: str = '1.0.5'
 # The directory containing this file
 HERE = pathlib.Path(__file__).parent
 # The text of the README file
@@ -45,8 +45,8 @@ setup(
         'twine',
         'bottle',
         'Paste',
-        'grpcio==1.24.1'
-        'grpcio-tools==1.24.1',
+        'grpcio>=1.24.1'
+        'grpcio-tools>=1.24.1',
         'bottle-cors'
     ],
     classifiers=[
@@ -55,6 +55,12 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
     ],
     entry_points={
         'console_scripts': [
