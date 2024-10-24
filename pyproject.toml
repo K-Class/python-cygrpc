@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cygrpc"
+version = "1.0.5"
+license = {file = "README.md"}
+authors = [
+  { name="Fabio Moreno", email="fabio.moreno@cuemby.com" },
+]
+description = "gRPC Micro framework"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    'Topic :: Software Development',
+    'Topic :: Scientific/Engineering',
+    'Typing :: Typed',
+    'Operating System :: Microsoft :: Windows',
+    'Operating System :: POSIX',
+    'Operating System :: Unix',
+    'Operating System :: MacOS',
+]
+
+[project.urls]
+Homepage = "https://github.com/cuemby/python-cygrpc/"
